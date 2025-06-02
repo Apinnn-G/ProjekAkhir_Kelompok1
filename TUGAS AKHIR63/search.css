@@ -1,0 +1,25 @@
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #e50914;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
