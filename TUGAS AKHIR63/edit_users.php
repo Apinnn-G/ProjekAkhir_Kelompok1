@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <div class="edit-container">
         <h2>Edit User: <?php echo $user['username']; ?></h2>
         
-        <form action="edit_user.php?id=<?php echo $id; ?>" method="post">
+        <form action="edit_users.php?id=<?php echo $id; ?>" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" value="<?php echo $user['username']; ?>" required>
