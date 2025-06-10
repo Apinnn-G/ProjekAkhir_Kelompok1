@@ -324,6 +324,8 @@ require 'koneksi.php';
 
 
         <!-- Genre Sections -->
+        <!-- ini jadi dia konek dulu ke query terus dia ambil data berdasarkan genre yang dipilih yang setelah LIKE,  -->
+<a id="genre"></a>
 <section class="genre-section" id="horror">
     <h2 class="heading">Film Horror</h2>
     <div class="swiper genre-swiper">
